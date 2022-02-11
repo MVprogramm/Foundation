@@ -1,67 +1,16 @@
 .page {
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: -0.01em;
-  color: #1c1a26;
+  display: flex;
+  justify-content: center;
+  background-color: #f3c6bd;
   scroll-behavior: smooth;
-}
-.page__color--blue {
-  color: #1c1a26;
-}
-.page__color--pink {
-  color: #f9512e;
-}
-.page__background-color--blue {
-  background-color: #eef7ff;
-}
-.page__background-color--pink {
-  background-color: #ffeefc;
-}
-.page__cookie {
-  position: relative;
-  transition: color 0.3s;
-}
-.page__cookie:hover {
-  color: #f9512e;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-.page__cookie:hover::before {
-  content: url(../images/symbol.png);
-  position: absolute;
-  top: 0;
-  left: -25px;
-}
-.page__phone {
-  position: relative;
-  transition: color 0.3s;
-}
-.page__phone:hover {
-  color: #f9512e;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-.page__phone:hover::before {
-  content: url(../images/phone.png);
-  position: absolute;
-  top: 0;
-  left: -25px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   height: 890px;
-  width: 100vw;
+  width: 1400px;
   box-sizing: border-box;
-  background-color: #f3c6bd;
 }
 @media (min-width: 1400px) {
   .header {
@@ -176,7 +125,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 175px;
   color: #2B292D;
   text-decoration: none;
   line-height: 25px;

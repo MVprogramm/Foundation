@@ -3,11 +3,11 @@
   flex-direction: column;
 
   height: 890px;
-  width: 100vw;
+  width: 1400px;
 
   box-sizing: border-box;
 
-  background-color: #f3c6bd;
+  
 
   @include onDesktop {
     height: 710px;
