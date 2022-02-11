@@ -1,0 +1,14 @@
+.motto {
+
+  height: 172px;
+  width: 290px;
+
+  @include onDesktop {
+    
+    width: 456px;
+
+    color: #2b292d;
+    line-height: 34px;
+    letter-spacing: 0.4px;
+  }
+}

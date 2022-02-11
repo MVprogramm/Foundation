@@ -1,0 +1,26 @@
+.title {
+  display: block;
+
+  height: 205px;
+  width: 290px;
+    
+  font-size: 50px;
+  
+  line-height: 50px;
+  color: #2B292D;
+    
+  letter-spacing: 2px;
+
+  
+
+  @include onDesktop {
+    height: 165px;
+    width: 754px;
+    
+    font-size: 80px;
+    line-height: 78px;
+    color: #2B292D;
+    
+    letter-spacing: 2px;
+  }
+}

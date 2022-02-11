@@ -1,0 +1,35 @@
+.button {
+  outline: none;
+  border: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 290px;
+  height: 48px;
+
+  padding: 0 18px;
+  
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 13px;
+
+  cursor: pointer;
+
+  @include onDesktop {
+    min-width: 160px;
+  }
+
+  &_blue {
+    color: #ffffff;
+
+    background-color: #3040c4;
+  }
+
+  &_white {
+    color: #3040c4;
+
+    background-color: #ffffff;
+  }
+}

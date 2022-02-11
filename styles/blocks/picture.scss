@@ -1,0 +1,18 @@
+.picture {
+  display: block;
+  
+  height: 180px;
+  min-width: 320px;
+
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+  background-size: contain;
+  background-position: (100% 100%);
+  background-repeat: no-repeat;
+
+  @include onDesktop {
+    height: 488px;
+    min-width: 796px;
+
+    background-position: (100% 100%);
+  }
+}

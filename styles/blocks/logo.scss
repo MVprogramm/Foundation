@@ -1,0 +1,59 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-width: 175px;
+
+  color: #2B292D;
+  text-decoration: none;
+  line-height: 25px;
+
+  @include onDesktop {
+    min-width: 293px;
+  }
+
+  &__image {
+    width: 52px;
+    height: 48px;
+
+    @include onDesktop {
+      width: 66px;
+      height: 60px;
+    }
+  }
+
+  &__label {
+    display: flex;
+    
+    height: 51px;
+
+    @include onDesktop {
+      flex-direction: column;
+    }
+  }
+
+  &__heading {
+    line-height: 51px;
+
+    font-weight: 700;
+    font-size: 20px;
+
+    @include onDesktop {
+      line-height: 25px;
+    }
+  }
+
+  &__write-up {
+    display: none;
+
+    @include onDesktop {
+      display: block;
+
+      line-height: 25px;
+
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+}

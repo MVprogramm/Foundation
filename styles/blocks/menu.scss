@@ -1,0 +1,65 @@
+.menu {
+  &__title {
+    @include title_h3;
+    color: #7f8096;
+
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+  }
+
+  &__open {
+    display: flex;
+    
+    height: 65px;
+    min-width: 58px;
+
+    border-left: 1px solid #a2a2a2;
+
+    cursor: pointer;
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__item {
+    width: 150px;
+  }
+
+  &__link {
+    margin-left: 0;
+    width: max-content;
+    text-decoration: none;
+
+    color: #2b292d;
+    
+
+    &_selected {
+      font-weight: 700;
+    }
+
+    &_arrow {
+      display: flex;
+    }
+
+    &-name {
+      width: 100px;
+
+      cursor: pointer;
+    }
+
+    &-img {
+      width: 8px;
+      height: 5px;
+
+      cursor: pointer;
+
+      margin: auto;
+    }
+  }
+}

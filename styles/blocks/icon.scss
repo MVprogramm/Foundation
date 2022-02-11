@@ -1,0 +1,37 @@
+.icon {
+  display: block;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: auto;
+
+  &--menu {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+    width: 18px;
+    height: 13px;
+
+    &:hover {
+      background-image: url(../images/equal-hover.png);
+    }
+
+    &:active {
+      background-image: url(../images/equal-focused.png);
+    }
+  }
+
+  &--cross {
+    background-image: url(../images/cross.png);
+    width: 12px;
+    height: 12px;
+
+    &:hover {
+      background-image: url(../images/cross-hover.png);
+    }
+
+    &:active {
+      background-image: url(../images/cross-focused.png);
+    }
+  }
+}
