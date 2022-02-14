@@ -30,13 +30,15 @@
       height: 60px;
 
       margin-bottom: 20px;
+
+      @include onDesktop {
+        margin-top: -70px;
+      }
     }
 
     @include onDesktop {
       width: 66px;
       height: 60px;
-
-      margin-top: -70px;
     }
   }
 
@@ -52,13 +54,15 @@
       height: 51px;
 
       margin-bottom: 60px;
+
+      @include onDesktop {
+        margin-top: -30px;
+      }
     }
 
     @include onDesktop {
       flex-direction: column;
       align-items: flex-start;
-
-      margin-top: -30px;
     }
   }
 
@@ -86,6 +90,7 @@
 
       font-size: 18px;
       line-height: 25px;
+      color: #2b292d;
     }
 
     @include onDesktop {

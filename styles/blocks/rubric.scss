@@ -159,8 +159,10 @@
         display: block;
 
         width: 360px;
+
         font-size: 18px;
         line-height: 26px;
+        color: #2b292d;
 
         margin: -90px 0 25px 85px;
       }
@@ -336,18 +338,21 @@
     &_nyt {
       height: 60px;
       width: 90px;
+
       margin: 20px auto;
     }
 
     &_frb {
       height: 20px;
       width: 80px;
+
       margin: 37px 10px;
     }
 
     &_apl {
       height: 40px;
       width: 35px;
+      
       margin: 27px auto;
     }
 
