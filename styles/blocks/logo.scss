@@ -7,7 +7,17 @@
   text-decoration: none;
   line-height: 25px;
 
+  &_footer {
+    flex-direction: column;
+
+    height: 130px;
+
+    margin-bottom: 30px;
+  }
+
   @include onDesktop {
+    flex-direction: row;
+
     min-width: 293px;
   }
 
@@ -15,9 +25,18 @@
     width: 52px;
     height: 48px;
 
+    &_footer {
+      width: 60px;
+      height: 60px;
+
+      margin-bottom: 20px;
+    }
+
     @include onDesktop {
       width: 66px;
       height: 60px;
+
+      margin-top: -70px;
     }
   }
 
@@ -26,8 +45,20 @@
     
     height: 51px;
 
+    &_footer {
+      flex-direction: column;
+      align-items: center;
+
+      height: 51px;
+
+      margin-bottom: 60px;
+    }
+
     @include onDesktop {
       flex-direction: column;
+      align-items: flex-start;
+
+      margin-top: -30px;
     }
   }
 
@@ -40,10 +71,22 @@
     @include onDesktop {
       line-height: 25px;
     }
+
+    &_footer {
+      line-height: 25px;
+    }
   }
 
   &__write-up {
     display: none;
+
+    &_footer {
+      display: block;
+      align-items: center;
+
+      font-size: 18px;
+      line-height: 25px;
+    }
 
     @include onDesktop {
       display: block;

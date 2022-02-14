@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+
+  &__line {
+    position: relative;
+
+    top: 280px;
+
+    opacity: 0.3;
+
+    @include onDesktop {
+      top: 330px
+    }
+  }
+}

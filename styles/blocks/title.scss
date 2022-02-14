@@ -2,7 +2,7 @@
   display: block;
 
   height: 205px;
-  width: 290px;
+  max-width: 290px;
     
   font-size: 50px;
   
@@ -15,12 +15,12 @@
 
   @include onDesktop {
     height: 165px;
-    width: 754px;
+    max-width: 754px;
     
     font-size: 80px;
     line-height: 78px;
     color: #2B292D;
     
-    letter-spacing: 2px;
+    letter-spacing: -0.01em;
   }
 }

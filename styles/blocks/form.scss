@@ -1,0 +1,17 @@
+input.button_white {
+  border: 1px solid #2B292D33;
+
+  @include onDesktop {
+    min-width: 385px;
+  }
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+        
+    text-align: center;
+      
+    color: #2B292D;
+  }
+}
