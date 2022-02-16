@@ -1,11 +1,5 @@
 .menu {
-  &__title {
-    @include title_h3;
-    color: #7f8096;
-
-  }
-
-  &__list {
+   &__list {
     display: flex;
     justify-content: space-between;
 
