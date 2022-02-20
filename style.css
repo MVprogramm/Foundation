@@ -206,13 +206,6 @@
   }
 }
 
-.menu__title {
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #7f8096;
-}
 .menu__list {
   display: flex;
   justify-content: space-between;
@@ -668,6 +661,7 @@ input.button_white::placeholder {
 }
 .rubric__gallery_footer {
   justify-content: space-between;
+  gap: 10px;
   height: 80px;
   max-width: 260px;
   width: 100%;
