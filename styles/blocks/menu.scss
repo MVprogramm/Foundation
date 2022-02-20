@@ -1,5 +1,5 @@
 .menu {
-   &__list {
+  &__list {
     display: flex;
     justify-content: space-between;
 
@@ -8,7 +8,7 @@
 
   &__open {
     display: flex;
-    
+
     height: 65px;
     min-width: 58px;
 
@@ -30,8 +30,7 @@
     width: max-content;
     text-decoration: none;
 
-    color: #2b292d;
-    
+    color: $text-grey;
 
     &_selected {
       font-weight: 700;

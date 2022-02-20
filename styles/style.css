@@ -118,7 +118,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #2B292D;
+  color: $text-grey;
   text-decoration: none;
   line-height: 25px;
 }
@@ -195,7 +195,7 @@
   align-items: center;
   font-size: 18px;
   line-height: 25px;
-  color: #2b292d;
+  color: $text-grey;
 }
 @media (min-width: 1400px) {
   .logo__write-up {
@@ -230,7 +230,7 @@
   margin-left: 0;
   width: max-content;
   text-decoration: none;
-  color: #2b292d;
+  color: $text-grey;
 }
 .menu__link_selected {
   font-weight: 700;
@@ -286,7 +286,7 @@
 @media (min-width: 1400px) {
   .motto {
     max-width: 440px;
-    color: #2b292d;
+    color: $text-grey;
     line-height: 34px;
     letter-spacing: 0.4px;
   }
@@ -298,7 +298,7 @@
   max-width: 290px;
   font-size: 50px;
   line-height: 50px;
-  color: #2B292D;
+  color: $text-grey;
   letter-spacing: 2px;
 }
 @media (min-width: 1400px) {
@@ -307,7 +307,7 @@
     max-width: 754px;
     font-size: 80px;
     line-height: 78px;
-    color: #2B292D;
+    color: $text-grey;
     letter-spacing: -0.01em;
   }
 }
@@ -342,7 +342,7 @@
 }
 
 input.button_white {
-  border: 1px solid #2B292D33;
+  border: 1px solid $text-grey33;
 }
 @media (min-width: 1400px) {
   input.button_white {
@@ -354,7 +354,7 @@ input.button_white::placeholder {
   font-size: 18px;
   line-height: 20px;
   text-align: center;
-  color: #2B292D;
+  color: $text-grey;
 }
 
 .picture {
@@ -462,7 +462,7 @@ input.button_white::placeholder {
 
 .rubric_isIt {
   max-width: 290px;
-  color: #2b292d;
+  color: $text-grey;
   margin-bottom: 30px;
 }
 @media (min-width: 1400px) {
@@ -475,13 +475,13 @@ input.button_white::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #2b292d;
+  color: $text-grey;
 }
 .rubric_order {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #2b292d;
+  color: $text-grey;
 }
 @media (min-width: 1400px) {
   .rubric_order {
@@ -586,7 +586,7 @@ input.button_white::placeholder {
     width: 360px;
     font-size: 18px;
     line-height: 26px;
-    color: #2b292d;
+    color: $text-grey;
     margin: -90px 0 25px 85px;
   }
 }
@@ -708,7 +708,7 @@ input.button_white::placeholder {
   }
 }
 .rubric__picture_audience_selected {
-  background-color: #3141C5;
+  background-color: #3141c5;
 }
 .rubric__picture_order {
   flex: 1;
@@ -793,7 +793,7 @@ input.button_white::placeholder {
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  color: #2B292D;
+  color: $text-grey;
 }
 .rubric__img-description_selected {
   color: #ffffff;

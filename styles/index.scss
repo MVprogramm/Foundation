@@ -11,17 +11,26 @@
 @import "blocks/motto";
 @import "blocks/title";
 @import "blocks/button";
-@import "blocks/form";
 @import "blocks/picture";
 @import "blocks/main";
 @import "blocks/content";
 @import "blocks/rubric";
+@import "blocks/heading";
+@import "blocks/name";
+@import "blocks/indent";
+@import "blocks/actions";
+@import "blocks/gallery";
+@import "blocks/illustration";
+@import "blocks/image";
+@import "blocks/description";
+@import "blocks/comment";
 @import "blocks/footer";
+@import "blocks/info";
 
 * {
   box-sizing: border-box;
 
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 24px;
   line-height: 34px;
 

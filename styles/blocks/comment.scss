@@ -1,0 +1,24 @@
+.comment {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: rgba(43, 41, 45, 0.6);
+
+  &_order {
+    max-width: 290px;
+
+    @include onDesktop {
+      max-width: 1400px;
+    }
+  }
+
+  &_link {
+    color: #0000ef;
+  }
+
+  &_footer {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

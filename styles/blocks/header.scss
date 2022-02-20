@@ -1,26 +1,24 @@
 .header {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn;
   align-items: center;
 
-  
   box-sizing: border-box;
 
   background-color: #f3c6bd;
 
   height: 890px;
- 
+
   @include onDesktop {
     height: 710px;
     width: 100vw;
-  }   
+  }
 
   &__content {
     width: 100vw;
 
     @include onDesktop {
-      width: 1400px;
-    } 
+      width: $breakpoint;
+    }
   }
 
   &__top-actions {
@@ -34,19 +32,17 @@
 
     @include onDesktop {
       display: block;
-    }    
+    }
   }
 
   &__info {
-    display: flex;
-    flex-direction: column;
-    
+    @include flexColumn;
     align-items: flex-start;
     flex-wrap: wrap;
-    
+
     @include onDesktop {
       flex-direction: row;
-      min-width: 1400px;
+      min-width: $breakpoint;
     }
   }
 
@@ -79,16 +75,12 @@
   }
 
   &__actions {
-    display: flex;
-    flex-direction: column;
-
+    @include flexColumn;
     justify-content: space-between;
 
     height: 119px;
-    
 
     margin: 30px auto 0 auto;
-    
 
     @include onDesktop {
       flex-direction: row;

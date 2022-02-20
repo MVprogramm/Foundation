@@ -3,24 +3,22 @@
 
   height: 205px;
   max-width: 290px;
-    
-  font-size: 50px;
-  
-  line-height: 50px;
-  color: #2B292D;
-    
-  letter-spacing: 2px;
 
-  
+  font-size: 50px;
+
+  line-height: 50px;
+  color: $text-grey;
+
+  letter-spacing: 2px;
 
   @include onDesktop {
     height: 165px;
     max-width: 754px;
-    
+
     font-size: 80px;
     line-height: 78px;
-    color: #2B292D;
-    
+    color: $text-grey;
+
     letter-spacing: -0.01em;
   }
 }

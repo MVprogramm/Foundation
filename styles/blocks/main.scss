@@ -1,6 +1,5 @@
 .main {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn;
   justify-content: center;
 
   position: relative;
@@ -13,7 +12,7 @@
     opacity: 0.3;
 
     @include onDesktop {
-      top: 330px
+      top: 330px;
     }
   }
 }

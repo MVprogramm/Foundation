@@ -1,0 +1,61 @@
+.indent {
+  &_isIt {
+    font-size: 22px;
+    line-height: 32px;
+
+    font-weight: 400;
+  }
+
+  &_audience {
+    max-width: 290px;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    @include onDesktop {
+      max-width: 555px;
+
+      margin-bottom: 34px;
+    }
+  }
+
+  &_order {
+    max-width: 290px;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    text-align: left;
+
+    margin-bottom: 30px;
+
+    @include onDesktop {
+      font-size: 22px;
+      line-height: 32px;
+
+      max-width: 555px;
+
+      margin-bottom: 26px;
+    }
+  }
+
+  &_footer {
+    display: none;
+
+    @include onDesktop {
+      display: block;
+
+      width: 360px;
+
+      font-size: 18px;
+      line-height: 26px;
+      color: $text-grey;
+
+      margin: -90px 0 25px 85px;
+    }
+  }
+}

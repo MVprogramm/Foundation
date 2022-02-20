@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
 
-  color: #2B292D;
+  color: $text-grey;
   text-decoration: none;
   line-height: 25px;
 
@@ -44,7 +44,7 @@
 
   &__label {
     display: flex;
-    
+
     height: 51px;
 
     &_footer {
@@ -90,7 +90,7 @@
 
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $text-grey;
     }
 
     @include onDesktop {
