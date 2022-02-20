@@ -1,6 +1,6 @@
 # foundation
 
-visit the website:
+visit the layout of website:
 https://mvprogramm.github.io/foundation/
 
 breakpoint: 1400px
