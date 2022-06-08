@@ -30,12 +30,18 @@
 
     margin-bottom: 15px;
 
+    cursor: pointer;
+
     @include onDesktop {
       max-width: 262px;
     }
 
-    &_selected {
-      background-color: #3141c5;
+    &:hover {
+      background-color: $blueHover;
+    }
+
+    &:hover span {
+      color: $pureWhite;
     }
   }
 

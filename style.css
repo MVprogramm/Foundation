@@ -714,14 +714,18 @@ input.button_white::placeholder {
   border-radius: 8px;
   padding-bottom: 20px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 @media (min-width: 1400px) {
   .illustration_audience {
     max-width: 262px;
   }
 }
-.illustration_audience_selected {
+.illustration_audience:hover {
   background-color: #3141c5;
+}
+.illustration_audience:hover span {
+  color: #ffffff;
 }
 .illustration_order {
   flex: 1;
@@ -809,9 +813,6 @@ input.button_white::placeholder {
   line-height: 28px;
   text-align: center;
   color: #2b292d;
-}
-.description_selected {
-  color: #ffffff;
 }
 
 .comment {
