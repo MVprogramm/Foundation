@@ -23,15 +23,15 @@
   }
 
   &_blue {
-    color: #ffffff;
+    color: $pureWhite;
 
-    background-color: #3040c4;
+    background-color: $blueStyle;
   }
 
   &_white {
-    color: #3040c4;
+    color: $blueStyle;
 
-    background-color: #ffffff;
+    background-color: $pureWhite;
   }
 }
 
@@ -50,5 +50,9 @@ input.button_white {
     text-align: center;
 
     color: $text-grey;
+
+    @include onDesktop {
+      text-align: left;
+    }
   }
 }

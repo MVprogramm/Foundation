@@ -31,7 +31,7 @@
 
     text-align: left;
 
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
     @include onDesktop {
       font-size: 22px;
@@ -55,7 +55,7 @@
       line-height: 26px;
       color: $text-grey;
 
-      margin: -90px 0 25px 85px;
+      margin: -90px 0 25px 65px;
     }
   }
 }

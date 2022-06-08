@@ -7,7 +7,7 @@
     height: 94px;
     max-width: 107px;
 
-    border: 1px solid #f1f1f1;
+    border: 1px solid $greyBorder;
 
     @include onDesktop {
       border: none;
@@ -22,7 +22,7 @@
     height: 300px;
     width: 290px;
 
-    background-color: #ffffff;
+    background-color: $pureWhite;
 
     border-radius: 8px;
 
