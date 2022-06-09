@@ -4,76 +4,63 @@
   &_nyt {
     height: 60px;
     width: 90px;
-
     margin: 20px auto;
   }
 
   &_frb {
     height: 20px;
     width: 80px;
-
     margin: 37px 10px;
   }
 
   &_apl {
     height: 40px;
     width: 35px;
-
     margin: 27px auto;
   }
 
   &_msh {
     height: 15px;
     width: 70px;
-
     filter: grayscale(1);
-
     margin: 40px 20px;
   }
 
   &_wsj {
     height: 25px;
     width: 55px;
-
     margin: 35px auto;
   }
 
   &_ggl {
     height: 25px;
     width: 70px;
-
     filter: grayscale(1);
-
     margin: 35px auto;
   }
 
   &_developers {
     padding: 22px 0 35px 0;
-
     margin: auto;
   }
 
   &_entertainment {
     padding: 22px 0 35px 0;
-
     margin: auto;
   }
 
   &_athletes {
     padding: 22px 0 35px 0;
-
     margin: auto;
   }
 
   &_creators {
     padding: 22px 0 35px 0;
-
     margin: auto;
   }
 
   &_order {
     width: 200px;
-
     margin: auto;
 
     @include onDesktop {

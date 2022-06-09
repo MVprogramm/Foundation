@@ -1,9 +1,7 @@
 .rubric {
   &_isIt {
     max-width: 290px;
-
     color: $text-grey;
-
     margin-bottom: 30px;
 
     @include onDesktop {
@@ -15,14 +13,12 @@
   &_audience {
     @include flexColumn;
     align-items: center;
-
     color: $text-grey;
   }
 
   &_order {
     @include flexColumn;
     align-items: center;
-
     color: $text-grey;
 
     @include onDesktop {

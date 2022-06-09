@@ -1,22 +1,17 @@
 .name {
   &_audience {
     max-width: 290px;
-
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
-
     text-align: center;
     letter-spacing: -0.357143px;
-
     margin-bottom: 18px;
 
     @include onDesktop {
       max-width: 555px;
-
       font-size: 56px;
       line-height: 56px;
-
       text-align: center;
       letter-spacing: -0.5px;
     }
@@ -24,22 +19,17 @@
 
   &_order {
     max-width: 290px;
-
     font-weight: bold;
     font-size: 40px;
     line-height: 40px;
-
     text-align: center;
     letter-spacing: -0.357143px;
-
     margin-bottom: 12px;
 
     @include onDesktop {
       max-width: 555px;
-
       font-size: 40px;
       line-height: 40px;
-
       text-align: center;
       letter-spacing: -0.25px;
     }

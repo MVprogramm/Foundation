@@ -3,33 +3,24 @@
 
   &_customers {
     flex: 1;
-
     height: 94px;
     max-width: 107px;
-
     border: 1px solid $greyBorder;
 
     @include onDesktop {
       border: none;
-
       transform: scale(1.5);
     }
   }
 
   &_audience {
     flex: 1;
-
     height: 300px;
     width: 290px;
-
     background-color: $pureWhite;
-
     border-radius: 8px;
-
     padding-bottom: 20px;
-
     margin-bottom: 15px;
-
     cursor: pointer;
 
     @include onDesktop {
@@ -47,12 +38,9 @@
 
   &_order {
     flex: 1;
-
     height: 300px;
     width: 290px;
-
     padding-bottom: 20px;
-
     margin-bottom: 15px;
 
     @include onDesktop {

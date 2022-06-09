@@ -24,17 +24,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding: 46px 15px;
 
     @include onDesktop {
       flex-direction: row;
       justify-content: space-between;
       flex: 1;
-
       max-width: $breakpoint;
       height: 255px;
-
       padding: 77px 130px 77px 130px;
     }
   }
@@ -44,34 +41,28 @@
 
     @include onDesktop {
       max-width: $breakpoint;
-
       padding: 77px 0;
     }
   }
 
   &__audience {
     width: 100vw;
-
     padding: 50px 15px;
 
     @include onDesktop {
       max-width: $breakpoint;
-
       padding: 108px 130px 140px 130px;
     }
   }
 
   &__order {
     width: 100vw;
-
     padding: 50px 15px;
 
     @include onDesktop {
       display: flex;
       flex-direction: row;
-
       max-width: $breakpoint;
-
       padding: 106px 230px 70px 170px;
     }
   }

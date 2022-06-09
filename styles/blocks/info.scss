@@ -1,16 +1,13 @@
 .info {
   @include flexColumn;
   align-items: flex-start;
-
   max-width: 290px;
   width: 100%;
-
   margin-bottom: 22px;
 
   @include onDesktop {
     flex-direction: row;
     justify-content: space-between;
-
     height: 15px;
     max-width: $breakpoint;
   }
@@ -19,15 +16,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     width: 180px;
     max-width: 180px;
-
     margin-bottom: 30px;
 
     @include onDesktop {
       flex: 1;
-
       margin-left: 35px;
     }
   }

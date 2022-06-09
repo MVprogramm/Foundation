@@ -1,41 +1,33 @@
 .icon {
   display: block;
-
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
   margin: auto;
 
   &_menu {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-    
     width: 18px;
     height: 13px;
   }
 
   &_tw {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png);
-  
     height: 16px;
     width: 21px;
   }
 
   &_fb {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png);
-  
     height: 17px;
     width: 18px;
   }
 
   &_in {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png);
-  
     height: 22px;
     width: 17px;
-
     transform: scale(1.1);
-
     margin-top: -3px;
   }
 }

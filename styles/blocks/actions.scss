@@ -21,15 +21,12 @@
     @include flexColumn;
     justify-content: space-between;
     align-items: center;
-
     height: 110px;
     width: 100%;
-
     margin-bottom: 10px;
 
     @include onDesktop {
       flex-direction: row;
-
       height: auto;
       width: 555px;
     }
