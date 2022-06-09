@@ -1,21 +1,16 @@
 .button {
   outline: none;
   border: none;
-  
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 100%;
   max-width: 290px;
   height: 48px;
-
   padding: 0 18px;
-  
   font-size: 18px;
   font-weight: 700;
   line-height: 13px;
-
   cursor: pointer;
 
   @include onDesktop {
@@ -23,14 +18,32 @@
   }
 
   &_blue {
-    color: #ffffff;
-
-    background-color: #3040c4;
+    color: $pureWhite;
+    background-color: $blueStyle;
   }
 
   &_white {
-    color: #3040c4;
+    color: $blueStyle;
+    background-color: $pureWhite;
+  }
+}
 
-    background-color: #ffffff;
+input.button_white {
+  border: 1px solid #2b292d33;
+
+  @include onDesktop {
+    min-width: 385px;
+  }
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: $text-grey;
+
+    @include onDesktop {
+      text-align: left;
+    }
   }
 }

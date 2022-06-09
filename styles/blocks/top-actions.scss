@@ -2,18 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-
-  
-
-  background-color: #ffffff;
-
+  background-color: $pureWhite;
   padding: 0 0 0 12px;
 
   @include onDesktop {
-    
-    background-color: #f3c6bd;
-
+    background-color: $pinkStyle;
     padding: 39px 130px;
     margin-bottom: 0;
   }

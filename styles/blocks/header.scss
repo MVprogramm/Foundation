@@ -1,26 +1,21 @@
 .header {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn;
   align-items: center;
-
-  
   box-sizing: border-box;
-
-  background-color: #f3c6bd;
-
+  background-color: $pinkStyle;
   height: 890px;
- 
+
   @include onDesktop {
     height: 710px;
     width: 100vw;
-  }   
+  }
 
   &__content {
     width: 100vw;
 
     @include onDesktop {
-      width: 1400px;
-    } 
+      width: $breakpoint;
+    }
   }
 
   &__top-actions {
@@ -29,24 +24,21 @@
 
   &__menu {
     display: none;
-
     width: 50%;
 
     @include onDesktop {
       display: block;
-    }    
+    }
   }
 
   &__info {
-    display: flex;
-    flex-direction: column;
-    
+    @include flexColumn;
     align-items: flex-start;
     flex-wrap: wrap;
-    
+
     @include onDesktop {
       flex-direction: row;
-      min-width: 1400px;
+      min-width: $breakpoint;
     }
   }
 
@@ -68,32 +60,23 @@
 
   &__picture {
     order: 1;
-
     margin: 160px auto;
 
     @include onDesktop {
       order: 0;
-
       margin: 0 0 0 575px;
     }
   }
 
   &__actions {
-    display: flex;
-    flex-direction: column;
-
+    @include flexColumn;
     justify-content: space-between;
-
     height: 119px;
-    
-
     margin: 30px auto 0 auto;
-    
 
     @include onDesktop {
       flex-direction: row;
       width: 330px;
-
       margin: 58px 0 0 0;
     }
   }

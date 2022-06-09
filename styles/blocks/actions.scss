@@ -1,0 +1,34 @@
+.actions {
+  &_audience {
+    @include flexColumn;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 110px;
+    width: 100%;
+
+    margin-bottom: 40px;
+
+    @include onDesktop {
+      flex-direction: row;
+      width: 330px;
+
+      margin: 0 auto 111px 400px;
+    }
+  }
+
+  &_order {
+    @include flexColumn;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    margin-bottom: 10px;
+
+    @include onDesktop {
+      flex-direction: row;
+      height: auto;
+      width: 555px;
+    }
+  }
+}

@@ -1,445 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css"/>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="page">
+  <body class="page">
     <header class="header">
-        <div class="header__content">
-            <div class="top-actions header__top-actions">
-                <div class="nav-actions">
-                    <a href="#" class="logo">
-                        <img
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
-                            class="logo__image"
-                            alt="Foundation"
-                        />
-
-                        <label class="logo__label">
-                            <span class="logo__heading">
-                                Foundation
-                            </span>
-
-                            <span class="logo__write-up">
-                                Startup landing template
-                            </span>
-                        </label>
-                    </a>
-            
-                    <div class="menu header__menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link menu__link_selected">
-                                    <span class="menu__link-name">Home</span>
-                                </a>
-                            </li>
-            
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">
-                                    <span class="menu__link-name"></span>Stories</span>
-                                </a>
-                            </li>
-            
-                            <li class="menu__item">
-                                <a href="#" class="menu__link menu__link_arrow">
-                                    <span class="menu__link-name">Library</span>
-
-                                    <img
-                                        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png"
-                                        class="menu__link-img"
-                                        alt="Library select-input"
-                                    />
-                                </a>
-                            </li>
-            
-                            <li class="menu__item">
-                                <button class="button button_blue">
-                                    Get Started
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="menu__open">
-                        <a href="#" class="icon icon_menu"></a>
-                    </div>
-                </div>
+      <div class="header__content">
+        <div class="top-actions header__top-actions">
+          <div class="nav-actions">
+            <a href="#" class="logo">
+              <img
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+                class="logo__image"
+                alt="Foundation"
+              />
+              <label class="logo__label">
+                <span class="logo__heading"> Foundation </span>
+                <span class="logo__write-up"> Startup landing template </span>
+              </label>
+            </a>
+            <div class="menu header__menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link menu__link_selected">
+                    <span class="menu__link-name">Home</span>
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">
+                    <span class="menu__link-name">Stories</span>
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link menu__link_arrow">
+                    <span class="menu__link-name">Library</span>
+                    <img
+                      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png"
+                      class="menu__link-img"
+                      alt="Library select-input"
+                    />
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <button class="button button_blue">Get Started</button>
+                </li>
+              </ul>
             </div>
-                   
-            <div class="header__info">
-                <div class="picture header__picture"></div>
-                  
-                <h1 class="title header__title">
-                    Build stunning websites & apps.
-                </h1>
-                        
-                <div class="motto header__motto">
-                    Create live segments and target the 
-                    right people for messages based on 
-                    their behaviors.
-                    
-                    <div class="header__actions">
-                        <button class="button button_blue">
-                            Get Started
-                        </button>
-
-                        <button class="button button_white">
-                            Learn more
-                        </button>
-                    </div>
-                </div>
+            <div class="menu__open">
+              <a href="#" class="icon icon_menu"></a>
             </div>
+          </div>
         </div>
+
+        <div class="header__info">
+          <div class="picture header__picture"></div>
+          <h1 class="title header__title">Build stunning websites & apps.</h1>
+          <div class="motto header__motto">
+            Create live segments and target the right people for messages based on their behaviors.
+
+            <div class="header__actions">
+              <button class="button button_blue">Get Started</button>
+              <button class="button button_white">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="main">
-        <section class="content content_isIt">
-            <div class="content__isIt">
-                <article class="rubric rubric_isIt">
-                    <h3 class="rubric__heading rubric__heading_isIt">What is it about?</h3>
+      <section class="content content_isIt">
+        <div class="content__itIs">
+          <article class="rubric rubric_isIt">
+            <h3 class="heading heading_isIt">What is it about?</h3>
+            <p class="indent indent_isIt">
+              Building a website for a startup that looks amazing is not a rocket science anymore.
+            </p>
+          </article>
+          <article class="rubric rubric_isIt">
+            <h3 class="heading heading_isIt">Who is it for?</h3>
+            <p class="indent indent_isIt">
+              Startups, small companies and teams, entrepreneurs and web developers.
+            </p>
+          </article>
+        </div>
+      </section>
 
-                    <p class="rubric__indent rubric__indent_isIt">
-                        Building a website for a startup that
-                        looks amazing is not a rocket science
-                        anymore.
-                    </p>
-                </article>
-
-                <article class="rubric rubric_isIt">
-                    <h3 class="rubric__heading rubric__heading_isIt">Who is it for?</h3>
-
-                    <p class="rubric__indent rubric__indent_isIt">
-                        Startups, small companies and teams,
-                        entrepreneurs and web developers.
-                    </p>
-                </article>
+      <section class="content">
+        <div class="content__customers">
+          <div class="gallery gallery_customers">
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_nyt"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
+                alt="logo nyt"
+              />
             </div>
-        </section>
-
-        <section class="content">
-            <div class="content__customers">
-                <div class="rubric__gallery rubric__gallery_customers">
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_nyt"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
-                            alt="logo nyt"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_frb"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
-                            alt="logo forbes"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_apl"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
-                            alt="logo apple"
-                        />
-                    </div>
-                    
-
-                    <div class="rubric__pictur rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_msh"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
-                            alt="logo mashable"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_wsj"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
-                            alt="logo wsj"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_ggl"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
-                            alt="logo google"
-                        />
-                    </div>
-                </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_frb"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
+                alt="logo forbes"
+              />
             </div>
-        </section>
-
-        <section class="content content_audience">
-            <div class="content__audience">
-                <article class="rubric rubric_audience">
-                    <h3 class="rubric__heading rubric__heading_audience">Engage Visitors</h3>
-
-                    <h2 class="rubric__name rubric__name_audience">Understand your audience</h2>
-
-                    <p class="rubric__indent rubric__indent_audience">
-                        Early stage company? Eligible applicants get all of our products for
-                        just $49 a month.
-                    </p>
-
-                    <div class="rubric__actions_audience">
-                        <button class="button button_blue">
-                            Get Started
-                        </button>
-
-                        <button class="button button_white">
-                            Learn more
-                        </button>
-                    </div>
-
-                    <div class="rubric__gallery rubric__gallery_audience">
-                        <div class="rubric__picture rubric__picture_audience">          
-                            <img
-                                class="rubric__image rubric__image_developers"
-                                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
-                                alt="developers"
-                            />
-
-                            <span class="rubric__img-description">Developers</span>
-                        </div>
-
-                        <div class="rubric__picture rubric__picture_audience rubric__picture_audience_selected"> 
-                            <img
-                                class="rubric__image rubric__image_entertainment"
-                                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
-                                alt="entertainment"
-                            />
-
-                            <span class="rubric__img-description rubric__img-description_selected">Entertainment</span>
-                        </div>
-
-                        <div class="rubric__picture rubric__picture_audience">
-                            <img
-                                class="rubric__image rubric__image_athletes"
-                                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
-                                alt="athletes"
-                            />
-
-                            <span class="rubric__img-description">Athletes</span>
-                        </div>
-
-                        <div class="rubric__picture rubric__picture_audience">
-                            <img
-                                class="rubric__image rubric__image_creators"
-                                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
-                                alt="creators"
-                            />
-
-                            <span class="rubric__img-description">Creators</span>
-                        </div>
-                    </div>
-                </article>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_apl"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
+                alt="logo apple"
+              />
             </div>
-        </section>
-
-        <section class="content">
-            <div class="content__customers">
-                <div class="rubric__gallery rubric__gallery_customers">
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_nyt"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
-                            alt="logo nyt"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_frb"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
-                            alt="logo forbes"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_apl"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
-                            alt="logo apple"
-                        />
-                    </div>
-                    
-
-                    <div class="rubric__pictur rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_msh"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
-                            alt="logo mashable"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_wsj"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
-                            alt="logo wsj"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_customers">
-                        <img
-                            class="rubric__image rubric__image_ggl"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
-                            alt="logo google"
-                        />
-                    </div>
-                </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_msh"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
+                alt="logo mashable"
+              />
             </div>
-        </section>
-
-        <section class="content content_order">
-            <div class="content__order">
-                <div class="rubric__gallery rubric__gallery_order">
-                    <div class="rubric__picture rubric__picture_order">  
-                              
-                        <img
-                            class="rubric__image rubric__image_order"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png"
-                            alt="illustration window"
-                        />
-                        
-                    </div>
-                </div>
-
-                <article class="rubric rubric_order">
-                    <h2 class="rubric__name rubric__name_order">Start your free trial.</h2>
-
-                    <p class="rubric__indent rubric__indent_order">
-                        Get notified about company updates, news and blog posts. We hate spam.
-                    </p>
-
-                    <form 
-                      action="#"
-                      method="post"
-                      class="rubric__actions  rubric__actions_order"
-                    >
-                        <input 
-                          type="text"
-                          class="button button_white"
-                          placeholder="Enter your email"
-                        />
-
-                        <button type="submit" class="button button_blue">
-                            Get Started
-                        </button>
-                    </form>
-
-                    <p class="rubric__comment">
-                        Free 14-day trial · Easy setup · Cancel any time. Check out
-                        <a href="#" class="rubric__comment rubric__comment_link">
-                          Terms of Use.
-                        </a>
-                    </p>
-                </article>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_wsj"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
+                alt="logo wsj"
+              />
             </div>
-        </section>
-    
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_ggl"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
+                alt="logo google"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content content_audience">
+        <div class="content__audience">
+          <article class="rubric rubric_audience">
+            <h3 class="heading heading_audience">Engage Visitors</h3>
+            <h2 class="name name_audience">Understand your audience</h2>
+            <p class="indent indent_audience">
+              Early stage company? Eligible applicants get all of our products for just $49 a month.
+            </p>
+            <div class="actions_audience">
+              <button class="button button_blue">Get Started</button>
+              <button class="button button_white">Learn more</button>
+            </div>
+            <div class="gallery gallery_audience">
+              <div class="illustration illustration_audience">
+                <img
+                  class="image image_developers"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
+                  alt="developers"
+                />
+                <span class="description">Developers</span>
+              </div>
+              <div class="illustration illustration_audience">
+                <img
+                  class="image image_entertainment"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
+                  alt="entertainment"
+                />
+                <span class="description">Entertainment</span>
+              </div>
+              <div class="illustration illustration_audience">
+                <img
+                  class="image image_athletes"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
+                  alt="athletes"
+                />
+                <span class="description">Athletes</span>
+              </div>
+              <div class="illustration illustration_audience">
+                <img
+                  class="image image_creators"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
+                  alt="creators"
+                />
+                <span class="description">Creators</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="content__customers">
+          <div class="gallery gallery_customers">
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_nyt"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
+                alt="logo nyt"
+              />
+            </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_frb"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
+                alt="logo forbes"
+              />
+            </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_apl"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
+                alt="logo apple"
+              />
+            </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_msh"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
+                alt="logo mashable"
+              />
+            </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_wsj"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
+                alt="logo wsj"
+              />
+            </div>
+            <div class="illustration illustration_customers">
+              <img
+                class="image image_ggl"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
+                alt="logo google"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content content_order">
+        <div class="content__order">
+          <div class="gallery gallery_order">
+            <div class="illustration illustration_order">
+              <img
+                class="image image_order"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png"
+                alt="illustration window"
+              />
+            </div>
+          </div>
+          <article class="rubric rubric_order">
+            <h2 class="name name_order">Start your free trial.</h2>
+            <p class="indent indent_order">
+              Get notified about company updates, news and blog posts. We hate spam.
+            </p>
+            <form action="#" method="post" class="actions actions_order">
+              <input type="text" class="button button_white" placeholder="Enter your email" />
+              <button type="submit" class="button button_blue">Get Started</button>
+            </form>
+            <p class="comment comment_order">
+              Free 14-day trial · Easy setup · Cancel any time. Check out
+              <a href="#" class="comment comment_link"> Terms of Use. </a>
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
-    <hr class="main__line">
+    <hr class="main__line" />
 
     <footer class="footer">
-        <div class="footer__content">  
-            <div class="rubric__footer rubric__footer_logo">
-                <a href="#" class="logo logo_footer">
-                    <img
-                        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
-                        class="logo__image logo__image_footer"
-                        alt="Foundation"
-                    />
-
-                    <label class="logo__label logo__label_footer">
-                        <span class="logo__heading logo__heading_footer">
-                            Foundation
-                        </span>
-
-                        <span class="logo__write-up logo__write-up_footer">
-                            Startup landing template
-                        </span>
-                    </label>
-                </a>
-
-                <p class="rubric__indent rubric__indent_footer">
-                    Foundation is a website template for startups and small teams. It helps
-                    to build a website in no time.
-                </p>
-
-                <div class="rubric__gallery rubric__gallery_footer">
-                    <div class="rubric__picture rubric__picture_footer">
-                        <img
-                            class="rubric__image rubric__image_store"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png"
-                            alt="app-store"
-                        />
-                    </div>
-                    
-                    <div class="rubric__picture rubric__picture_footer">
-                        <img
-                            class="rubric__image rubric__image_play"
-                            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png"
-                            alt="google-play"
-                        />
-                    </div>
-                </div>
+      <div class="footer__content">
+        <div class="footer__section footer__section_logo">
+          <a href="#" class="logo logo_footer">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
+              class="logo__image logo__image_footer"
+              alt="Foundation"
+            />
+            <label class="logo__label logo__label_footer">
+              <span class="logo__heading logo__heading_footer"> Foundation </span>
+              <span class="logo__write-up logo__write-up_footer"> Startup landing template </span>
+            </label>
+          </a>
+          <p class="indent indent_footer">
+            Foundation is a website template for startups and small teams. It helps to build a
+            website in no time.
+          </p>
+          <div class="gallery gallery_footer">
+            <div class="illustration illustration_footer">
+              <img
+                class="image image_store"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png"
+                alt="app-store"
+              />
             </div>
-            <div class="rubric__footer rubric__footer_product">
-                <h3 class="rubric__heading rubric__heading_footer">Product</h3>
-                <p class="rubric__comment rubric__comment_footer">Acquire Users</p>
-                <p class="rubric__comment rubric__comment_footer">Content Marketing</p>
-                <p class="rubric__comment rubric__comment_footer">Website Templates</p>
-                <p class="rubric__comment rubric__comment_footer">Customer Management</p>
-                <p class="rubric__comment rubric__comment_footer">Virtual Inbox</p>
+            <div class="illustration illustration_footer">
+              <img
+                class="image image_play"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png"
+                alt="google-play"
+              />
             </div>
-
-            <div class="rubric__footer rubric__footer_company">
-                <h3 class="rubric__heading rubric__heading_footer">Company</h3>
-                <p class="rubric__comment rubric__comment_footer">About Foundation</p>
-                <p class="rubric__comment rubric__comment_footer">Brand Guidelines</p>
-                <p class="rubric__comment rubric__comment_footer">Press Kit</p>
-                <p class="rubric__comment rubric__comment_footer">Support</p>
-            </div>
-
-            <div class="rubric__footer rubric__info">
-                <div class="rubric__comment rubric__info_legal">
-                    <p class="rubric__comment rubric__comment_legal">Terms</p>
-                    <p class="rubric__comment rubric__comment_legal">Privacy</p>
-                    <p class="rubric__comment rubric__comment_legal">License</p>
-                </div>
-
-                <div class="rubric__gallery rubric__gallery_media">
-                    <div class="rubric__icon">
-                        <a href="#" class="icon icon_tw"></a>
-                    </div>
-
-                    <div class="rubric__icon">
-                        <a href="#" class="icon icon_fb"></a>
-                    </div>
-
-                    <div class="rubric__icon">
-                        <a href="#" class="icon icon_in"></a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="footer__section footer__section_product">
+          <h3 class="heading heading_footer">Product</h3>
+          <p class="comment comment_footer">Acquire Users</p>
+          <p class="comment comment_footer">Content Marketing</p>
+          <p class="comment comment_footer">Website Templates</p>
+          <p class="comment comment_footer">Customer Management</p>
+          <p class="comment comment_footer">Virtual Inbox</p>
+        </div>
+        <div class="footer__section footer__section_company">
+          <h3 class="heading heading_footer">Company</h3>
+          <p class="comment comment_footer">About Foundation</p>
+          <p class="comment comment_footer">Brand Guidelines</p>
+          <p class="comment comment_footer">Press Kit</p>
+          <p class="comment comment_footer">Support</p>
+        </div>
+        <div class="info">
+          <div class="comment info_legal">
+            <p class="comment">Terms</p>
+            <p class="comment">Privacy</p>
+            <p class="comment">License</p>
+          </div>
+          <div class="gallery gallery_media">
+            <a href="#" class="icon icon_tw"></a>
+            <a href="#" class="icon icon_fb"></a>
+            <a href="#" class="icon icon_in"></a>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
